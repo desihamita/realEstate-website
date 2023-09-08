@@ -10,8 +10,8 @@
 :root {
   --primaryColor: #3959D7;
   --primaryColorLight: hsl(223, 100%, 97%);
-  --primaryColorDark: hsl(216, 58%, 28%);
-  --gradientLight: rgb(114, 145, 255);
+  --primaryColorDark: #1f3f70;
+  --gradientLight: #7291ff;
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: #F5F5F9;
