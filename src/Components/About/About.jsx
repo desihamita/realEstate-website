@@ -22,7 +22,10 @@ const About = () => {
           <div data-aos="fade-down" className="secHeader flex">
             <div className="secTitle">
               <span className="orangeText">Our Values</span>
-              <h1>Value We Give You<span className="orangeDot">.</span></h1>
+              <h1>
+                Value We Give You
+                <span className="orangeDot">.</span>
+              </h1>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, mollitia harum recusandae molestiae dolor ab.
               </p>

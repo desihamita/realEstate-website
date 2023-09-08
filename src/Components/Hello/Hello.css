@@ -137,6 +137,7 @@
   .Hello .secContainer .textDiv {
     position: relative;
     flex-basis: 60%;
+    margin-top: 3rem;
   }
   .Hello .secContainer .textDiv h1 {
     font-size: 3rem;

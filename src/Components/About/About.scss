@@ -56,7 +56,7 @@
                         border-radius: var(--borderRadius);
                         .flex{
                             align-items: center;
-                            gap: .5rem;
+                            gap: 0.5rem;
                             justify-content: center;
                             .titleText{
                                 font-weight: 600;
@@ -72,9 +72,9 @@
                         width: 100%;
                         line-height: 25px;
                         height: 0px;
-                        transition: all 0.3s ease-in-out;
+                        transition: all .3s ease-in-out;
                         opacity: 0;
-                        padding: .5rem 1rem 2rem;
+                        padding: .5rem 1rem 1rem;
                         border-radius: 0 0 var(--borderRadius) var(--borderRadius);
                         color: var(--primaryColor);
                     }
@@ -106,7 +106,7 @@
                     .singleAccordian{
                         width: 100%;
                         .description{
-                            padding: 1.5rem 1rem;
+                            padding: 1.5rem 1rem 0;
                         }
                     }
                 }
@@ -135,7 +135,7 @@
                 .accordian{
                     .singleAccordian{
                         .description{
-                            padding: 0 1rem 1.5rem;
+                            padding: 0 1rem 1rem;
                         }
                         .show{
                             height: 100%;
@@ -149,3 +149,5 @@
         }
     }
 }
+
+

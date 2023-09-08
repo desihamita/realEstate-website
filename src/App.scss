@@ -109,7 +109,7 @@ img{
     &:hover{
         transition: .3s ease-in-out;
         background: var(--primaryColor);
-         
+        color: var(--whiteColor);
     }
 }
 .secTitle{
@@ -120,7 +120,7 @@ img{
     font-weight: 700;
     color: var(--primaryColorDark);
     flex-direction: column;
-    width: 10%;
+    width: 100%;
     h3{
         font-size: var(--h1FontSize);
     }

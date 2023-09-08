@@ -18,16 +18,13 @@ const Contact = () => {
       <div className="secContainer flex">
         <div data-aos="fade-down" className="imgDiv"><img src={contactImg} alt="Contact Image" /></div>
         <div className="textDiv">
-          <div data-aos="fade-down" className="secHeader flex">
+          <div className="secHeader">
             <div className="secTitle">
-              <span className="orangeText">Contact us</span>
-              <h1>
-                {""}
-                Easy way to contact us
-                <span className="orangeDot">.</span>
-              </h1>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat sunt iste at quia modi? Sunt.
+              <span data-aos="fade-down" className="orangeText">
+                Contact us
+              </span>
+              <h1 data-aos="fade-down" className="title">Easy way to contact us<span className='orangeDot'>.</span></h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ea.
               </p>
             </div>
           </div>
@@ -80,3 +77,6 @@ const Contact = () => {
 }
 
 export default Contact
+
+
+

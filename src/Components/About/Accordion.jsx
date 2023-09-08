@@ -12,24 +12,21 @@ const Accordion = ({title, desc, active, setActive}) => {
     AOS.init({duration: 2000})
   })
   return (
-    <div>
-        <div data-aos="fade-down" className={(active === title ? "activeAccordion": "") + "singleAccordian"}>
-            <span onClick={() => setActive(title)} className={(active === title ? "activeTitle" : "") + "accordianTitle" + "flex"} >
-                <span className="flex">
-                    <AiFillCheckCircle className='icon'/>
-                    <span className="titleText">{title}</span>
-                </span>
-                <span className="dropdownIcon">
-                    {active === title ? (
-                        <BiSolidDownArrow className="icon"/>
-                    ): (
-                        <BiSolidUpArrow className="icon" />
-                    )}
-                    
-                </span>
+    <div data-aos="fade-down" className={(active === title ? "activeAccordion ": "") + "singleAccordian "}>
+        <span onClick={() => setActive(title)} className={(active === title ? "activeTitle " : "") + "accordianTitle " + " flex"} >
+            <span className="flex">
+                <AiFillCheckCircle className='icon'/>
+                <span className="titleText">{title}</span>
             </span>
-            <p className={(active === title ? "show" : "") + "description"}>{desc}</p>
-        </div>
+            <span className="dropdownIcon">
+                {active === title ? (
+                    <BiSolidDownArrow className="icon"/>
+                ): (
+                    <BiSolidUpArrow className="icon" />
+                )}   
+            </span>
+        </span>
+        <p className={(active === title ? "show " : "") + "description "}>{desc}</p>
     </div>
   )
 }
